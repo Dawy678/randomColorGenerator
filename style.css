@@ -1,0 +1,199 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    transition: 1s;
+}
+#backgroundgta6home {
+    position: relative;
+    text-align: center;
+}
+#backgroundgta6home img {
+    width:100%
+}
+p {
+    color: black;
+}
+.nav {
+    background-color: #333333;
+    color: white;
+    overflow: hidden;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.ahover {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
+}
+.ahover:hover {
+    color: #ffff99;
+    transition: 1s;
+}
+.ahover1 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
+}
+.ahover1:hover {
+    color: #ff6699;
+    transition: 1s;
+}
+.ahover2 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
+}
+.ahover2:hover {
+    color: #0066ff;
+    transition: 1s;
+}
+.ahover3 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease 0.5s;
+    animation-fill-mode: both;
+    font-size: 1.3rem;
+}
+.ahover3:hover {
+    color: #cc3300;
+    transition: 1s;
+}
+#okejcom {
+    float: right;
+    margin-right: 50px;
+}
+#imgokejcom {
+    width: 1.35rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 250px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.ikonyfooter {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin: 10px;
+    color: #333333;
+}
+
+/* FORUM */
+
+#forumbignapisdiv {
+    text-align: center;
+    margin-top: 15px;
+}
+#forumbignapis {
+    color: black;
+    text-decoration: underline #ffff99;
+    font-size: 1.4rem;
+    transition: 1s;
+}
+.sekcja {
+    margin-top: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border: 1px solid black;
+}
+.sekcjatytul {
+    background-color: #ffff99;
+    color: black;
+    font-size: 1.25rem;
+    text-align: center;
+    transition: 1s;
+}
+.sekcjareszta {
+    border-top: 1px solid black;
+    font-size: 1.15rem;
+   
+}
+.sekcjareszta ul {
+    list-style-type: none;
+}
+.ikonywsekcji1 {
+    background-color: #333333;
+    color: white;
+    padding: 1px;
+    padding-left: 2px;
+    border-radius: 12%;
+}
+#ikonywsekcji2 {
+    background-color: #333333;
+    color: white;
+    padding: 1px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    border-radius: 12%;
+}
+#ustawienia {
+    float: right;
+    margin: 5px;
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#ustawieniaButton {
+    margin-top: 5px;
+}
+#ustawieniaButton, #zmienkolor {
+    border: 1px solid black;
+    background-color: rgb(150, 150, 150);
+    color: black;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 15px;
+    padding-bottom: 15px;
+    outline: none;
+}
+#zmienkolor {
+    opacity: 0;
+    transition: 1s;
+    margin-top: 10px;
+}
+#ustawienia:hover #zmienkolor {
+    opacity: 1;
+}
+#colorff6699 {
+    opacity: 0;
+    transition: 1s;
+}
+#color0066ff {
+    opacity: 0;
+    transition: 1s;
+}
+#colorcc3300 {
+    opacity: 0;
+    transition: 1s;
+}
+#randomowykolor {
+    opacity: 0;
+    transition: 1s;
+}
